@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "sql-alch"
+version = "0.1.0"
+description = ""
+authors = ["Wargoth_ks <121107554+Wargoth-ks@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+sqlalchemy = "^2.0.21"
+pydantic-settings = "^2.0.3"
+psycopg2 = "^2.9.9"
+prompt-toolkit = "^3.0.39"
+faker = "^19.6.2"
+tabulate = "^0.9.0"
+alembic = "^1.12.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
